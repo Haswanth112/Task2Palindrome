@@ -10,6 +10,7 @@ class Palindrome{
         for(int i=0; i<str.length();i++){
             Reversestr = str.charAt(i)+Reversestr;
         }
+        if(str.equals(Reversestr))
         System.out.println("Palindrome");
         else
         System.out.println("Not a palindrome");
